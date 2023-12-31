@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Ex_1{
+public static void main(String[] args)
+{
+Scanner scanner = new Scanner(System.in);
+System.out.println("Вводим число: ");
+int numb = scanner.nextInt();
+if (numb > 7)
+{
+System.out.println("Привет");
+}
+}
+}
