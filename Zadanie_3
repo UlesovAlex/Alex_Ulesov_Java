@@ -1,0 +1,25 @@
+import java.util.Scanner; 
+  
+public class Ex3 { 
+public static void main(String[] args) 
+{ 
+int raz; 
+Scanner scanner = new Scanner(System.in); 
+System.out.println("Вводим размер массива: "); 
+int raz = scan.nextInt(); 
+int[] r = new int[raz]; 
+System.out.println("Вводим элементы массива: "); 
+for (int i = 0; i < raz; i++) 
+{ 
+r[i] = scanner.nextInt(); 
+} 
+System.out.println("Выводим числа кратные 3-м: "); 
+for (int i = 0; i < raz; i++) 
+{ 
+if (r[i] % 3 == 0) 
+{ 
+System.out.println(r[i]); 
+} 
+} 
+} 
+} 
